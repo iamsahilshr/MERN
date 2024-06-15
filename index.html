@@ -1,18 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MERN</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        .bold {
+            font-weight: bold;
+        }
+
+        #heading {
+            text-align: center;
+            color: green;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+
+        img {
+            width: 300px;
+        }
+
+        .inline {
+            display: inline;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .highlight {
+            background-color: yellow;
+            display: inline;
+        }
+    </style>
 </head>
+
 <body>
     <header>
-        <a href="#">Home</a>
+        <a href="#" id="active-link">Home</a>
         <a href="./contact.html">Contact Us</a>
         <a href="./courses/mern.html">Our Courses</a>
     </header>
-    <h1>Web Development</h1>
-    <p>HTML</p>
+    <h1 id="heading">Web Development / MERN - Stack</h1>
+    <img src="https://www.boardinfinity.com/blog/content/images/2023/01/Mern.png" alt="">
+    <h2 class="underline">HTML</h2>
     <ul>
         <li>Elements</li>
         <ul>
@@ -22,19 +60,34 @@
         </ul>
         <li>Attributes</li>
     </ul>
-    <p>CSS</p>
-    <p>JavaScript</p>
-    <h2>HTML Paths</h2>
+    <h2 class="underline">CSS</h2>
+    <ul>
+        <li>Elements / Tags</li>
+        <li>Class</li>
+        <li>Id</li>
+    </ul>
+    <h2 class="underline">CSS Types</h2>
+    <ol>
+        <li>Internal CSS</li>
+        <li>External CSS</li>
+    </ol>
+    <h2 class="underline">JavaScript</h2>
+    <h2 class="underline">HTML Paths</h2>
     <ol>
         <li>Absolute Path</li>
         <li>Relative Path</li>
     </ol>
+    <p><span class="underline bold italic highlight">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</span>
+        Sapiente aliquid beatae nemo, velit veniam accusantium commodi voluptatum obcaecati fugit voluptatibus quisquam
+        assumenda totam minus accusamus autem dolorum architecto ea saepe.</p>
+    <img src="https://www.rlogical.com/wp-content/uploads/2020/12/MERN.webp" alt="">
     <footer>
         <ul>
-            <li><a href="" target="_blank">Facebook</a></li>
-            <li><a href="" target="_blank">Youtube</a></li>
-            <li><a href="" target="_blank">Instagram</a></li>
+            <li class="inline"><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+            <li class="inline"><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+            <li class="inline"><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
         </ul>
     </footer>
 </body>
+
 </html>
